@@ -248,6 +248,7 @@ b) Bullseye. Install Debian 11-Bullseye virtual machine in VirtualBox. (See also
 11. Login into the system
 12. Upgrade system
 
+
                 $ sudo apt-get -y dist-upgrade
 
 Install a firewall and turn it on.
