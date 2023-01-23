@@ -43,7 +43,7 @@ take actions to achieve their original objectives.
 
 ### Courses of Action Matrix
 
-![Action Matrix Model]()
+![Action Matrix Model](1.JPG)
 
 ![Action Matrix Model]()
 
