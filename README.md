@@ -130,16 +130,28 @@ n) Voluntary bonus: Banditry. Solve Over the Wire: Bandit 5-7.
 
 o) Voluntary bonus: My fundaments. What do you consider the fundamentals of security? What would you teach the first day?
 
+1. I think it would be great to describe the history of cybersecurity. 
+2. Why the cybersecurity is important. 
+3. The CIA Triad. 
+4. The different types of profession and careers in cybersecurity. 
+5. Different types of cybersecurity operations:
+- Network security
+- Application security
+- Cloud security
+- Information security
+- Infrastructure security
+- Storage security
+- Mobile security
+- etc 
 
 
 p) Voluntary bonus: Johnny Tables. Solve Webgoat: A1 Injection (intro).
 
 
 
-
 q) Voluntary multi-week bonus, requires programming: Ptacek et al: Cryptopals.
 
-Convert hex to base64
+Convert hex to base64 with Python3
 The string:
 
         49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
