@@ -43,13 +43,13 @@ take actions to achieve their original objectives.
 
 ### Courses of Action Matrix
 
+![Action Matrix Model](4.JPG)
+
 ![Action Matrix Model](1.JPG)
 
-![Action Matrix Model]()
+![Action Matrix Model](2.JPG)
 
-![Action Matrix Model]()
-
-![Action Matrix Model]()
+![Action Matrix Model](3.JPG)
 
 The kill chain shows an asymmetry between aggressor and defender, any one repeated component by
 the aggressor is a liability. Understanding the nature of repetition for given adversaries, be it out of
