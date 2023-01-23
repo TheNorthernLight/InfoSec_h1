@@ -5,6 +5,57 @@ Become a hacker, step 0
 x) Read and summarize. (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary)
 Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action
 
+## Indicators and the Indicator Life Cycle
+
+~ Atomic - Atomic indicators are those which cannot be broken down into smaller parts and retain
+their meaning in the context of an intrusion
+~ Computed - Computed indicators are those which are derived from data involved in an incident.
+~ Behavioral - Behavioral indicators are collections of computed and atomic indicators, often subject
+to qualification by quantity and possibly combinatorial logic.
+
+![Indicator life cycle states and transitions in cyber security](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt6d111edc09d13d74/5e009a1d36b15c3efa6833a6/image.png)
+
+## Intrusion Kill Chain
+
+1. Reconnaissance - Research, identification and selection of targets, often represented as crawling
+Internet websites such as conference proceedings and mailing lists for email addresses, social
+relationships, or information on specific technologies.
+
+2. Weaponization - Coupling a remote access trojan with an exploit into a deliverable payload,
+typically by means of an automated tool (weaponizer).
+
+3. Delivery - Transmission of the weapon to the targeted environment.
+
+4. Exploitation - After the weapon is delivered to victim host, exploitation triggers intruders’ code.
+
+5. Installation - Installation of a remote access trojan or backdoor on the victim system allows the
+adversary to maintain persistence inside the environment.
+
+6. Command and Control (C2) - Typically, compromised hosts must beacon outbound to an
+Internet controller server to establish a C2 channel.
+
+7. Actions on Objectives - Only now, after progressing through the first six phases, can intruders
+take actions to achieve their original objectives.
+
+![Kill Chain Model](https://seqred.pl/wp-content/uploads/2020/08/cyber-kill-chain-process.png)
+
+### Courses of Action Matrix
+
+![Action Matrix Model](https://www.researchgate.net/profile/Ali_Dehghantanha/publication/330071595/figure/fig4/AS:743357785600001@1554241715925/Kill-chain-course-of-action-matrix-developed-from-threads-1-and-2-in-Fig-4-25.ppm)
+
+
+
+
+
+The kill chain shows an asymmetry between aggressor and defender, any one repeated component by
+the aggressor is a liability. Understanding the nature of repetition for given adversaries, be it out of
+convenience, personal preference, or ignorance, is an analysis of cost. Modeling the cost-benefit ratio
+to intruders is an area for additional research. When that cost-benefit is decidedly imbalanced, it is
+perhaps an indicator of information superiority of one group over the other. Models of information
+superiority may be valuable for computer network attack and exploitation doctrine development. Finally,
+this paper presents an intrusions kill chain model in the context of computer espionage. Intrusions may
+represent a broader problem class.
+
 
 
 Karvinen 2020: Command Line Basics Revisited
@@ -73,7 +124,7 @@ Karvinen 2020: Command Line Basics Revisited
         
 a) Bandit oh-five. Solve Over The Wire: Bandit the first five levels (0-4).
 
-# 0 -> 1
+### 0 -> 1
  
 bandit0@bandit:~$ pwd
 
@@ -87,7 +138,7 @@ bandit0@bandit:~$ cat readme
 
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
-# 1 -> 2
+### 1 -> 2
 
 bandit1@bandit:~$ pwd
 
@@ -113,7 +164,7 @@ bandit1@bandit:~$ cat ./-
 
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
-# 2 -> 3
+### 2 -> 3
 
 bandit2@bandit:~$ pwd
 
@@ -139,7 +190,7 @@ bandit2@bandit:~$ cat "spaces in this filename"
 
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
-# 3 -> 4
+### 3 -> 4
 
 bandit3@bandit:~$ ls -aRl
 
@@ -205,7 +256,7 @@ Install a firewall and turn it on.
 c) WebGoat. Install WebGoat practice target. (See also: Karvinen 2021: Install Webgoat 8 - Learn Web Pentesting)
 
 
-# Install Webgoat 8 - Learn Web Pentesting
+## Install Webgoat 8 - Learn Web Pentesting
 
 WebGoat is a beginner friendly practice target for web penetration testing.
 
@@ -247,7 +298,7 @@ General: Developer tools
 
 n) Voluntary bonus: Banditry. Solve Over the Wire: Bandit 5-7.
 
-# 4 -> 5
+### 4 -> 5
 
 bandit4@bandit:~$ ls -aRl
 
@@ -300,7 +351,7 @@ bandit4@bandit:~$ cat ./inhere/-f*
 
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-# 5 -> 6
+### 5 -> 6
 
 bandit5@bandit:~$ find ./inhere -size 1033c
 
@@ -310,7 +361,7 @@ bandit5@bandit:~$ cat ./inhere/maybehere07/.file2
 
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
-# 6 -> 7
+### 6 -> 7
 
 bandit6@bandit:~$ find / -size 33c -user bandit7 -group bandit6 2>/dev/null
 
@@ -320,7 +371,7 @@ bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
-# 7 -> 8
+### 7 -> 8
 
 bandit7@bandit:/$ find / -type f -exec grep -l millionth {} + 2>dev/null
 
