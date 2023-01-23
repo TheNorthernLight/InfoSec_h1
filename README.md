@@ -9,7 +9,71 @@ Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by An
 
 Karvinen 2020: Command Line Basics Revisited
 
+Moving and looking around
+
+(print working directory)
+        
+        $ pwd
+        
+(list files in working directory)        
+        
+        $ ls
+        
+(change directory)        
+        
+        $ cd
+        $ cd ..
+        
+(piping the output from etc to less)        
+        
+        $ ls /etc|less
+        
+ File Manipulation
+ 
+ (view/edit file)
+ 
+        $ nano ***.txt
+        $ vim ***.txt
+        $ vi ***.txt
+        
+ (make new directory)
+ 
+        $ mkdir
+        
+ (move or rename directory)
+ 
+        $ mv 
+        
+ (copy, -r recursive)
+ 
+        $ cp 
+        $ cp -r
+        
+ (remove direcrory)
+ 
+        $ rmdir
+ 
+ (remove file)
+ 
+        $ rm 
+        $ rm -r
+        
+ SSH Remote Control 
+ 
+        $ ssh user@example.com
+        
+ (exit)
+ 
+        remotecomputer$ exit
+   
+ (copy with ssh)
+ 
+        $ scp -r FOLDER user@example.com:public_html/
+        
+        
 a) Bandit oh-five. Solve Over The Wire: Bandit the first five levels (0-4).
+
+Moving and looking around
 
 
 
