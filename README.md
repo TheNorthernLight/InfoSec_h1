@@ -293,12 +293,10 @@ write in the browser
 
 d) Hacker warmup. Solve these tasks on WebGoat
 
-
 General: HTTP Basics
-
-
 General: Developer tools
 
+![Action Matrix Model](5.JPG)
 
 
 n) Voluntary bonus: Banditry. Solve Over the Wire: Bandit 5-7.
