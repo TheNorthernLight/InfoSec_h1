@@ -9,7 +9,7 @@ Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by An
 
 Karvinen 2020: Command Line Basics Revisited
 
-Moving and looking around
++Moving and looking around
 
 (print working directory)
         
@@ -28,7 +28,7 @@ Moving and looking around
         
         $ ls /etc|less
         
- File Manipulation
+ +File Manipulation
  
  (view/edit file)
  
@@ -58,7 +58,7 @@ Moving and looking around
         $ rm 
         $ rm -r
         
- SSH Remote Control 
++SSH Remote Control 
  
         $ ssh user@example.com
         
