@@ -178,7 +178,7 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 b) Bullseye. Install Debian 11-Bullseye virtual machine in VirtualBox. (See also: Karvinen 2021: Install Debian on VirtualBox)
 
 
-[link text](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
+[Install Debian on Virtualbox](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
 
 1. Install VirtualBox
 2. Create Virtual Machine
