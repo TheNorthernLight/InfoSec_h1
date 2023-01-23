@@ -7,12 +7,12 @@ Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by An
 
 ## Indicators and the Indicator Life Cycle
 
-*Atomic - Atomic indicators are those which cannot be broken down into smaller parts and retain
+* Atomic - Atomic indicators are those which cannot be broken down into smaller parts and retain
 their meaning in the context of an intrusion
 
-*Computed - Computed indicators are those which are derived from data involved in an incident.
+* Computed - Computed indicators are those which are derived from data involved in an incident.
 
-*Behavioral - Behavioral indicators are collections of computed and atomic indicators, often subject
+* Behavioral - Behavioral indicators are collections of computed and atomic indicators, often subject
 to qualification by quantity and possibly combinatorial logic.
 
 ![Indicator life cycle states and transitions in cyber security](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt6d111edc09d13d74/5e009a1d36b15c3efa6833a6/image.png)
