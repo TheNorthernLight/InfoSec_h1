@@ -293,8 +293,9 @@ write in the browser
 
 d) Hacker warmup. Solve these tasks on WebGoat
 
-General: HTTP Basics
-General: Developer tools
+* General: HTTP Basics
+
+* General: Developer tools
 
 ![Action Matrix Model](5.JPG)
 
