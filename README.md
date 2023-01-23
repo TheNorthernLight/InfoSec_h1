@@ -135,14 +135,14 @@ o) Voluntary bonus: My fundaments. What do you consider the fundamentals of secu
 3. The CIA Triad. 
 4. The different types of profession and careers in cybersecurity. 
 5. Different types of cybersecurity operations:
-~ Network security
-~ Application security
-~ Cloud security
-~ Information security
-~ Infrastructure security
-~ Storage security
-~ Mobile security
-  ~ etc 
+   * Network security
+   * Application security
+   * Cloud security
+   * Information security
+   * Infrastructure security
+   * Storage security
+   * Mobile security
+   * etc 
 
 
 p) Voluntary bonus: Johnny Tables. Solve Webgoat: A1 Injection (intro).
