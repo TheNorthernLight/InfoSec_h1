@@ -7,10 +7,12 @@ Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by An
 
 ## Indicators and the Indicator Life Cycle
 
-~ Atomic - Atomic indicators are those which cannot be broken down into smaller parts and retain
+*Atomic - Atomic indicators are those which cannot be broken down into smaller parts and retain
 their meaning in the context of an intrusion
-~ Computed - Computed indicators are those which are derived from data involved in an incident.
-~ Behavioral - Behavioral indicators are collections of computed and atomic indicators, often subject
+
+*Computed - Computed indicators are those which are derived from data involved in an incident.
+
+*Behavioral - Behavioral indicators are collections of computed and atomic indicators, often subject
 to qualification by quantity and possibly combinatorial logic.
 
 ![Indicator life cycle states and transitions in cyber security](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt6d111edc09d13d74/5e009a1d36b15c3efa6833a6/image.png)
@@ -41,11 +43,13 @@ take actions to achieve their original objectives.
 
 ### Courses of Action Matrix
 
-![Action Matrix Model](https://www.researchgate.net/profile/Ali_Dehghantanha/publication/330071595/figure/fig4/AS:743357785600001@1554241715925/Kill-chain-course-of-action-matrix-developed-from-threads-1-and-2-in-Fig-4-25.ppm)
+![Action Matrix Model]()
 
+![Action Matrix Model]()
 
+![Action Matrix Model]()
 
-
+![Action Matrix Model]()
 
 The kill chain shows an asymmetry between aggressor and defender, any one repeated component by
 the aggressor is a liability. Understanding the nature of repetition for given adversaries, be it out of
