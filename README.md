@@ -377,16 +377,9 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 ### 7 -> 8
 
-bandit7@bandit:/$ find / -type f -exec grep -l millionth {} + 2>dev/null
-
-/proc/374/task/374/cmdline
+bandit7@bandit:/$ ls -la
 
 /home/bandit7/data.txt
-
-/usr/lib/perl/5.18.2/Time/HiRes.pm
-
-
-/usr/share/dict/american-english
 
 bandit7@bandit:/$ cat /home/bandit7/data.txt | grep millionth
 
